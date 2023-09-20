@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <title>How to make a qr code using python</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top">
+      <span class="span_">Making your own QR code using Python</span>
+    <div class="heading">
+      <div class="heading1">
+          <span class="step">Step-1:</span>   pip install qrcode
+
+      </div>
+      <div class="heading1">
+        <span class="step">Step-2:</span>  open a text editor and make a python file
+      </div>
+
+      <div class="heading1">
+  <span class="step">Step-3:</span>   import qrcode as qr (<span class="sp">alias - optional</span>)
+      </div>
+      <div class="heading1">
+        <span class="step">Step-4:</span>   use qr.make(" <span class="sp">insert here the link you want to make a qr of</span>")
+
+      </div>
+      <div class="heading1">
+        <span class="step_">Example:</span>   qr.make("<span class="sp_">https://home.cern/science/physics</span>")
+
+      </div>
+      <div class="heading1">
+        <span class="step">Step-5:</span>   use the save function(" <span class="sp">insert here the name you want to give the qr code and the way you want to save it as</span>")
+      </div>
+      <div class="heading1">
+        <span class="step_">Example:</span>   code_ = qr.make("<span class="sp_">https://home.cern/science/physics</span>")
+
+      </div>
+      <div class="heading1">
+        code_.save("<span class="sp_">cern-website.png</span>")
+
+      </div>
+      <div class="heading2">
+        <i >You have finally made a QRcode you can now generate a qr for your own website</i>
+        <br />
+        <i >The QRCode for the above generated website is here:</i>
+        <br />
+        <a href="CernWebsite.png" class="ref">Cern Website</a>
+
+
+      </div>
+
+
+
+
+    </div>
+        </div>
+
+  </body>
+</html>
