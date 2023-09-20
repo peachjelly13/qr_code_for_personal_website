@@ -3,5 +3,6 @@
 
 -Used the python library **"qrcode"** which was installed using pip.
 
--Used the various functions it provides to change the **color** , **version** , **border** , **box-size** of my qrcode and making it personalized.
+-Used the various functions it provides to change the **color** , **version** , **border** , **box-size** of my qrcode and making it 
+ personalized.
 
